@@ -1,0 +1,110 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    }
+    .icon-top{
+        background:rgb(255, 187, 0);
+        color: black;
+    }
+    .icon-top a{
+        color: black;
+        font-size:25px;
+        transition: color 0.5s ease-in-out 0.5s;
+    }
+    .icon-top a:hover{
+        color:rgba(0, 0, 0, 0);
+    }
+    .navbar{
+        background: white;
+        padding:10px 20px;
+        }
+    .navbar-background{
+        padding:15px 20px;
+    }
+    .navbar-brand{
+        color:black;
+       font-size:30px;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       font-weight: bold;
+    }
+  #media{
+        font-size: 15px;
+    margin-top: -200px;
+        font-weight: normal;
+    }
+    .bar1,
+    .bar2,
+    .bar3{
+        width: 33px;
+        height: 5px;
+        margin: 5px;
+        background: black;
+    }
+    .nav-link{
+        color: black;
+        font-size: 20px;
+        padding: 5px 5px!important;
+        transition: all 2s ease;
+        
+    }
+    .nav-link:hover{
+        background: #8d8a8b;
+        color: black;
+    }
+
+.item-1{
+    position:relative;
+    
+    min-height: 80vh;
+    overflow: hidden;
+    background: url(img/c1.jpg) center/cover fixed no-repeat;
+}
+.item-1:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width:200%;
+    height: 300%;
+    /* background-color: violet; */
+    background-color: rgba(192, 158, 46, 0.8);
+    top:0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+#para{
+    color: black!important;
+    font-size: 30px;
+    /* display: inline-flex; */
+    margin-left: 80%;
+    margin-top: 50%;
+}
+.vl {
+    border-left: 6px solid black;
+    margin-top: 10px;
+    height: 500px;
+    padding-bottom: 50px!important;
+  }
+  .i2{
+      padding-top: 100px;
+  }
+  .i3{
+      height: 80%;
+      width: 90%;
+      padding-bottom: 50px;
+      padding-left: 20px;
+      display: block;
+      border-left: 80px solid rgb(255, 187, 0);
+      border-bottom: 80px solid rgb(255, 187, 0);
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+  }
+.footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+background: rgb(5, 5, 68);
+}
